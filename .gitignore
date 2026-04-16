@@ -4,6 +4,7 @@ server/node_modules/
 client/dist/
 .runtime/
 .vercel/
+.env.tmp
 .env
 server/.env
 client/.env.local
