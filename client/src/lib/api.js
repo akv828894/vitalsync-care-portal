@@ -1,5 +1,9 @@
+const isLocalHost =
+  typeof window !== "undefined" &&
+  ["localhost", "127.0.0.1"].includes(window.location.hostname);
+
 export const apiBaseUrl =
-  import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+  import.meta.env.VITE_API_BASE_URL || (isLocalHost ? "http://localhost:5000" : "");
 
 export const apiRequest = async (
   path,

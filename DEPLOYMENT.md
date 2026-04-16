@@ -16,7 +16,7 @@ Build settings:
 
 Environment variable:
 
-- `VITE_API_BASE_URL=https://your-render-backend.onrender.com`
+- `BACKEND_URL=https://your-render-backend.onrender.com`
 
 ## Backend on Render
 
