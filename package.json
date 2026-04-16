@@ -1,0 +1,26 @@
+{
+  "name": "week14-vitalsync-auth-mvp",
+  "version": "1.0.0",
+  "description": "Standalone Week 14 VitalSync auth MVP with React frontend and Express backend.",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "week14",
+    "vitalsync",
+    "auth",
+    "jwt",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "Intern Project",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
