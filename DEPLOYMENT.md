@@ -4,6 +4,10 @@
 
 Deploy from the `client` directory.
 
+Repository URL:
+
+- `https://github.com/akv828894/vitalsync-care-portal`
+
 Build settings:
 
 - Framework preset: `Vite`
@@ -17,6 +21,10 @@ Environment variable:
 ## Backend on Render
 
 Deploy from the repository root using `render.yaml`.
+
+One-click deploy:
+
+- `https://render.com/deploy?repo=https://github.com/akv828894/vitalsync-care-portal`
 
 Environment variables to set:
 

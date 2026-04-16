@@ -2,6 +2,8 @@
 
 VitalSync Care Portal is a client-facing healthcare access experience built as a fullstack authentication MVP. It gives patients a polished login and dashboard flow while keeping the backend architecture production-ready with JWT authentication, password hashing, protected routes, and deployable frontend/backend separation.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/akv828894/vitalsync-care-portal)
+
 ## Product Snapshot
 
 - Sky-blue and white client-ready patient portal UI
@@ -70,6 +72,10 @@ If `MONGO_URI` is missing in production, the backend now fails fast instead of s
 
 The frontend is prepared for Vercel deployment with [client/vercel.json](./client/vercel.json), which rewrites all routes to `index.html` so React Router works correctly on refresh and direct navigation.
 
+Repository:
+
+- `https://github.com/akv828894/vitalsync-care-portal`
+
 Required Vercel environment variable:
 
 - `VITE_API_BASE_URL=https://your-render-backend.onrender.com`
@@ -77,6 +83,10 @@ Required Vercel environment variable:
 ### Backend: Render
 
 The backend is prepared for Render deployment with [render.yaml](./render.yaml).
+
+One-click Render setup:
+
+- `https://render.com/deploy?repo=https://github.com/akv828894/vitalsync-care-portal`
 
 Required Render environment variables:
 
