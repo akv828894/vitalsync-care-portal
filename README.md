@@ -78,7 +78,7 @@ Repository:
 
 Required Vercel environment variable:
 
-- `BACKEND_URL=https://your-render-backend.onrender.com`
+- `VITE_API_BASE_URL=https://your-render-backend.onrender.com`
 
 Optional local frontend environment variable:
 
